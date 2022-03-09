@@ -6,3 +6,5 @@ root: intro
 chapters:
 - file: cv
 - file: projects
+- file: publications
+- file: contact
