@@ -1,11 +1,10 @@
-# Welcome to your Jupyter Book
+# Welcome
 
-This is a small sample book to give you a feel for how book content is
-structured.
-It shows off a few of the major file types, as well as some sample content.
-It does not go in-depth into any particular topic - check out [the Jupyter Book documentation](https://jupyterbook.org) for more information.
+## Hi, I'm George! 
+I am a budding geophysics/glaciology PhD student at the Lamont-Doherty Earth Observatory at Columbia University.  I have a background in both engineering (BASc in Engineering Science from the University of Toronto) and physics (Physics specialization in Engineering Science).
 
-Check out the content pages bundled with this sample book to see more.
+I am mainly focused on revealing how our ice sheets react to an ever-changing climate. My current research involves modelling the physics of subglacial hydrology, in addition to using radar techniques to study supraglacial lake drainages. 
 
-```{tableofcontents}
-```
+My past work has broadly covered the intersection between physics, engineering, and earth sciences. My quest to better understand our planet has used tools ranging from idealized fluid dynamics experiments in a lab to supercomputer-generated global climate model simulations. 
+
+I'm always excited to explore the broader interdisciplinary impacts of rather specific scientific processes. Consequently, I'm eager to chat and learn about about climate and its intersections with data science, policy, and many other fields.
