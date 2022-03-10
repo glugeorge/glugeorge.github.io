@@ -1,5 +1,7 @@
 # Coding Projects
 
+This section keeps track of some of the projects that I've worked on that showcase various applications of coding/data science to earth science topics. 
+
 ## 2022
 ### Hurricanes tracks and their economic impacts in a changing climate:  
 - Project for a [Climate Prediction Challenges](https://leap.columbia.edu/) course
