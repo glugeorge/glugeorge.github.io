@@ -19,7 +19,7 @@
 - Lu, G., Wells, M., Van Stygeren, I., and Hecky, R.: Intrusions of sediment laden fluids into density stratified water columns can be an unrecognized source of mixing in many lakes., EGU General Assembly 2021, online, 19–30 Apr 2021, EGU21-1407, https://doi.org/10.5194/egusphere-egu21-1407, 2021.
 
 ## Field Experience
-- (Scheduled for 2022) Two weeks of day trips to supraglacial lakes near Ilulissat, Greenland, to deploy autonomous phase-sensitive radio echo sounders and GPS units.
+- (Scheduled for May and August, 2022) Two weeks of day trips to supraglacial lakes near Ilulissat, Greenland, to deploy autonomous phase-sensitive radio echo sounders and GPS units.
 
 ## Undergraduate Research Experience
 **University of Toronto: CGCS Summer Internship Program (2020)**
