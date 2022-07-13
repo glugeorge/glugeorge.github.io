@@ -7,7 +7,7 @@ I am mainly focused on revealing how our ice sheets react to an ever-changing cl
 
 My past work has broadly covered the intersection between physics, engineering, and earth sciences. My quest to better understand our planet has used tools ranging from idealized fluid dynamics experiments in a lab to supercomputer-generated global climate model simulations. 
 
-I'm always excited to explore the broader interdisciplinary impacts of rather specific scientific processes. Consequently, I'm eager to chat and learn about about climate and its intersections with data science, policy, and many other fields.
+I'm always excited to explore the broader interdisciplinary impacts of rather specific scientific processes. Consequently, I'm eager to chat and learn about about climate and its intersections with data science, policy, and many other fields. Currently, I'm quite interested in exploring machine learning in earth science, in addition to natural language processing and the science-policy or science-industry interface.
 
 ## On this site:
 ```{tableofcontents}
