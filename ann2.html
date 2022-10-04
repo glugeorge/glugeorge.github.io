@@ -1,0 +1,408 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+body {
+  margin: 0;
+  font-size: 14px;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+#centerContainer { width: 500px; text-align: center; margin: 0px auto; }
+
+section {
+  margin: 20;
+  text-align: left;
+}
+
+.header {
+  background-color: #f1f1f1;
+  padding: 30px;
+  text-align: center;
+}
+
+#navbar {
+  overflow: clip;
+  background-color: #333;
+  z-index: 9000;
+}
+
+#navbar a {
+  display: inline-block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 10px 10px;
+  text-decoration: none;
+  font-size: 10px;
+}
+
+#navbar a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+#navbar a.active {
+  background-color: #ddd;
+  color: white;
+}
+
+.content {
+  padding: 16px;
+}
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 500px;
+}
+
+.sticky + .content {
+  padding-top: 60px;
+}
+
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 10px 0px 10px 0px;
+  position: absolute;
+  bottom:20px;
+  width: 100%;
+  text-align: center;
+  background-color: #222;
+
+}
+.mySlides {
+  display:none;
+}
+.active-slide {
+  display:block;
+}
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor:pointer;
+  height: 13px;
+  width: 13px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+</style>
+</head>
+<body>
+<div id="centerContainer">
+  <div class="header">
+    <h1 style="
+      font-family: 'Chomsky';
+      src:'_static/Chomsky.otf';">The SG Times</h1>
+    <h3>A year in pictures: Sherry and George</h3>
+    <img alt="_images/notebooks_2_0.png" src="_images/opener.png" width="100%"/>
+    <section>
+      <p><i>October 13, 2022</i></p>
+      <p>This year in review is meant to be a knockoff of <a style="color: #000;" href="https://www.nytimes.com/interactive/2021/world/year-in-pictures.html">the New York Times' "The Year in Pictures"</a>. Obviously the styling is quite off, but that's because I'm a bit weak as a coder on the front-end. Also there’s not many dynamic features other than the scrolling, but that’s because I’m a bit weak as a coder on the back-end too. However, I wanted to have a piece of us up permanently on the Internet, so here’s a little slice from what will be many years of love. This will hopefully continue with the introspective/review theme of my previous Spotify-themed gift while bringing in some fresh remarks in a different wrapper.
+      </p>
+    </section>
+  </div>
+  
+  <div id="navbar">
+    <a class="oct21" href=#oct21>Oct.</a>
+    <a class="nov21" href=#nov21>Nov.</a>
+    <a class="dec21" href=#dec21>Dec.</a>
+    <a class="jan22" href=#jan22>Jan.</a>
+    <a class="feb22" href=#feb22>Feb.</a>
+    <a class="mar22" href=#mar22>Mar.</a>
+    <a class="apr22" href=#apr22>Apr.</a>
+    <a class="may22" href=#may22>May</a>
+    <a class="jun22" href=#jun22>Jun.</a>
+    <a class="jul22" href=#jul22>Jul.</a>
+    <a class="aug22" href=#aug22>Aug.</a>
+    <a class="sep22" href=#sep22>Sep.</a>
+  </div>
+  
+  <div class="content">
+    <section id="oct21">
+        <h1>October 2021: Being main characters in NYC</h1>
+        <div class="slideshow-container">
+          <div class="mySlides fade">
+            <div class="numbertext">1 / 4</div>
+            <img src="_images/oct1.jpg" style="width:100%">
+            <div class="text">October 12: A mysterious <a style="color: #fff;" href="https://www.instagram.com/sw_gl_y1/">Instagram account</a> is created</div>
+          </div>
+        
+          <div class="mySlides fade">
+            <div class="numbertext">2 / 4</div>
+            <img src="_images/oct2.png" style="width:100%">
+            <div class="text">October 23: Strangers take picture of stylish couple</div>
+          </div>
+        
+          <div class="mySlides fade">
+            <div class="numbertext">3 / 4</div>
+            <img src="_images/oct3.jpg" style="width:100%">
+            <div class="text">October 31: Fun times at Coney Island</div>
+          </div>
+          
+            <div class="mySlides fade">
+            <div class="numbertext">4 / 4</div>
+            <img src="_images/oct4.jpg" style="width:100%">
+            <div class="text">October 28: The most inner peace one could attain</div>
+          </div>
+        
+          <a class="prev">&#10094;</a>
+          <a class="next">&#10095;</a>
+        
+        <div style="text-align:center">
+          <span class="dot"></span>
+          <span class="dot" ></span>
+          <span class="dot" ></span>
+           <span class="dot"></span>
+        </div>
+        </div>
+        <p><i>New York, NY</i></p>
+        <p>Two months after their tragic separation, Sherry visited George in New York City. Their well documented reunion tore through the internet, as stories documenting meals and locales began popping up on <a style="color: #000;" href="https://www.instagram.com/sherry.png/">popular influencer accounts</a>. This visit was aligned with their first anniversary, which is well on its way to being a lifelong celebration (at least until their projected marriage). 
+        </p>
+        <p>When asked about it, Mr. Lu said:</p>
+        <p><i>“It was so good being able to see Sherry in person again, just the best feeling ever!”</i></p>
+        <p>October was filled with lots of good food, lots of cuddles, and lots of love. There was a lot of reminiscing about the year prior, and lots of hope for the future. A lot of sights were seen, but not enough pictures were taken nor dances danced. Luckily, this joyous trip continued into November!</p>
+        
+    </section>
+    <section id="nov21">
+      <h1>Header Text</h1>
+      <div class="slideshow-container">
+        <div class="mySlides fade">
+          <div class="numbertext">1 / 4</div>
+          <img src="http://www.w3schools.com/howto/img_mountains_wide.jpg" style="width:100%">
+          <div class="text">Caption Text</div>
+        </div>
+      
+        <div class="mySlides fade">
+          <div class="numbertext">2 / 4</div>
+          <img src="http://www.w3schools.com/howto/img_fjords_wide.jpg" style="width:100%">
+          <div class="text">Caption Two</div>
+        </div>
+      
+        <div class="mySlides fade">
+          <div class="numbertext">3 / 4</div>
+          <img src="http://www.w3schools.com/howto/img_nature_wide.jpg" style="width:100%">
+          <div class="text">Caption Three</div>
+        </div>
+        
+          <div class="mySlides fade">
+          <div class="numbertext">4 / 4</div>
+          <img src="http://placehold.it/1000x350" style="width:100%">
+          <div class="text">Caption Four</div>
+        </div>
+      
+        <a class="prev">&#10094;</a>
+        <a class="next">&#10095;</a>
+      
+      <div style="text-align:center">
+        <span class="dot"></span>
+        <span class="dot" ></span>
+        <span class="dot" ></span>
+         <span class="dot"></span>
+      </div>
+      </div>
+      <p>Some text to enable scrolling.. Lorem ipsum dolor sit amet, illum definitiones no quo, maluisset concludaturque et eum, altera fabulas ut quo. Atqui causae gloriatur ius te, id agam omnis evertitur eum. Affert laboramus repudiandae nec et. Inciderint efficiantur his ad. Eum no molestiae voluptatibus.</p>
+      <p>Some text to enable scrolling.. Lorem ipsum dolor sit amet, illum definitiones no quo, maluisset concludaturque et eum, altera fabulas ut quo. Atqui causae gloriatur ius te, id agam omnis evertitur eum. Affert laboramus repudiandae nec et. Inciderint efficiantur his ad. Eum no molestiae voluptatibus.</p>
+      <p>Some text to enable scrolling.. Lorem ipsum dolor sit amet, illum definitiones no quo, maluisset concludaturque et eum, altera fabulas ut quo. Atqui causae gloriatur ius te, id agam omnis evertitur eum. Affert laboramus repudiandae nec et. Inciderint efficiantur his ad. Eum no molestiae voluptatibus.</p>
+      <p>Some text to enable scrolling.. Lorem ipsum dolor sit amet, illum definitiones no quo, maluisset concludaturque et eum, altera fabulas ut quo. Atqui causae gloriatur ius te, id agam omnis evertitur eum. Affert laboramus repudiandae nec et. Inciderint efficiantur his ad. Eum no molestiae voluptatibus.</p>
+      <p>Some text to enable scrolling.. Lorem ipsum dolor sit amet, illum definitiones no quo, maluisset concludaturque et eum, altera fabulas ut quo. Atqui causae gloriatur ius te, id agam omnis evertitur eum. Affert laboramus repudiandae nec et. Inciderint efficiantur his ad. Eum no molestiae voluptatibus.</p>
+      <p>Some text to enable scrolling.. Lorem ipsum dolor sit amet, illum definitiones no quo, maluisset concludaturque et eum, altera fabulas ut quo. Atqui causae gloriatur ius te, id agam omnis evertitur eum. Affert laboramus repudiandae nec et. Inciderint efficiantur his ad. Eum no molestiae voluptatibus.</p>
+      
+  </section>
+  <section id="dec21">
+    <img alt="_images/notebooks_2_0.png" src="_images/bean.png" width="468"/>
+    <h1>Header Text</h1>
+    <p>Some text to enable scrolling.. Lorem ipsum dolor sit amet, illum definitiones no quo, maluisset concludaturque et eum, altera fabulas ut quo. Atqui causae gloriatur ius te, id agam omnis evertitur eum. Affert laboramus repudiandae nec et. Inciderint efficiantur his ad. Eum no molestiae voluptatibus.</p>
+    <p>Some text to enable scrolling.. Lorem ipsum dolor sit amet, illum definitiones no quo, maluisset concludaturque et eum, altera fabulas ut quo. Atqui causae gloriatur ius te, id agam omnis evertitur eum. Affert laboramus repudiandae nec et. Inciderint efficiantur his ad. Eum no molestiae voluptatibus.</p>
+    <p>Some text to enable scrolling.. Lorem ipsum dolor sit amet, illum definitiones no quo, maluisset concludaturque et eum, altera fabulas ut quo. Atqui causae gloriatur ius te, id agam omnis evertitur eum. Affert laboramus repudiandae nec et. Inciderint efficiantur his ad. Eum no molestiae voluptatibus.</p>
+    <p>Some text to enable scrolling.. Lorem ipsum dolor sit amet, illum definitiones no quo, maluisset concludaturque et eum, altera fabulas ut quo. Atqui causae gloriatur ius te, id agam omnis evertitur eum. Affert laboramus repudiandae nec et. Inciderint efficiantur his ad. Eum no molestiae voluptatibus.</p>
+    <p>Some text to enable scrolling.. Lorem ipsum dolor sit amet, illum definitiones no quo, maluisset concludaturque et eum, altera fabulas ut quo. Atqui causae gloriatur ius te, id agam omnis evertitur eum. Affert laboramus repudiandae nec et. Inciderint efficiantur his ad. Eum no molestiae voluptatibus.</p>
+    <p>Some text to enable scrolling.. Lorem ipsum dolor sit amet, illum definitiones no quo, maluisset concludaturque et eum, altera fabulas ut quo. Atqui causae gloriatur ius te, id agam omnis evertitur eum. Affert laboramus repudiandae nec et. Inciderint efficiantur his ad. Eum no molestiae voluptatibus.</p>
+    
+</section>
+  </div>
+</div>
+
+
+<script>
+
+
+window.onscroll = function() {myFunction()};
+
+var navbar = document.getElementById("navbar");
+var sticky = navbar.offsetTop;
+const sections = document.querySelectorAll("section");
+const navLi = document.querySelectorAll("#navbar a");
+console.log(navLi)
+function myFunction() {
+  if (window.pageYOffset >= sticky+550) {
+    navbar.classList.add("sticky")
+  } else {
+    navbar.classList.remove("sticky");
+  }
+  var current = "home";
+
+  sections.forEach((section) => {
+    const sectionTop = section.offsetTop;
+    if (pageYOffset >= sectionTop-80) {
+      current = section.getAttribute("id"); }
+      
+  });
+
+  navLi.forEach((a) => {
+    console.log(a)
+    a.classList.remove("active");
+    if (a.classList.contains(current)) {
+      a.classList.add("active");
+    }
+  });
+}
+(function() {
+
+init(); //on page load - show first slide, hidethe rest
+
+function init() {
+
+  parents = document.getElementsByClassName('slideshow-container');
+
+  for (j = 0; j < parents.length; j++) {
+    var slides = parents[j].getElementsByClassName("mySlides");
+    var dots = parents[j].getElementsByClassName("dot");
+    slides[0].classList.add('active-slide');
+    dots[0].classList.add('active');
+  }
+}
+
+dots = document.getElementsByClassName('dot'); //dots functionality
+
+for (i = 0; i < dots.length; i++) {
+
+  dots[i].onclick = function() {
+
+    slides = this.parentNode.parentNode.getElementsByClassName("mySlides");
+
+    for (j = 0; j < this.parentNode.children.length; j++) {
+      this.parentNode.children[j].classList.remove('active');
+      slides[j].classList.remove('active-slide');
+      if (this.parentNode.children[j] == this) {
+        index = j;
+      }
+    }
+    this.classList.add('active');
+    slides[index].classList.add('active-slide');
+
+  }
+}
+//prev/next functionality
+links = document.querySelectorAll('.slideshow-container a');
+
+for (i = 0; i < links.length; i++) {
+  links[i].onclick = function() {
+    current = this.parentNode;
+
+    var slides = current.getElementsByClassName("mySlides");
+    var dots = current.getElementsByClassName("dot");
+    curr_slide = current.getElementsByClassName('active-slide')[0];
+    curr_dot = current.getElementsByClassName('active')[0];
+    curr_slide.classList.remove('active-slide');
+    curr_dot.classList.remove('active');
+    if (this.className == 'next') {
+
+      if (curr_slide.nextElementSibling.classList.contains('mySlides')) {
+        curr_slide.nextElementSibling.classList.add('active-slide');
+        curr_dot.nextElementSibling.classList.add('active');
+      } else {
+        slides[0].classList.add('active-slide');
+        dots[0].classList.add('active');
+      }
+
+    }
+
+    if (this.className == 'prev') {
+
+      if (curr_slide.previousElementSibling) {
+        curr_slide.previousElementSibling.classList.add('active-slide');
+        curr_dot.previousElementSibling.classList.add('active');
+      } else {
+        slides[slides.length - 1].classList.add('active-slide');
+        dots[slides.length - 1].classList.add('active');
+      }
+
+    }
+
+  }
+
+}
+})();
+</script>
+
+</body>
+</html>
