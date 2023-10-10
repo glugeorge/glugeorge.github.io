@@ -1,0 +1,119 @@
+<html>
+<head>
+  <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+  <script type="text/javascript">
+    google.charts.load('current', {'packages':['gantt']});
+    google.charts.setOnLoadCallback(drawChart);
+
+    function drawChart() {
+
+      var data = new google.visualization.DataTable();
+      data.addColumn('string', 'Task ID');
+      data.addColumn('string', 'Task Name');
+      data.addColumn('string', 'Resource');
+      data.addColumn('date', 'Start Date');
+      data.addColumn('date', 'End Date');
+      data.addColumn('number', 'Duration');
+      data.addColumn('number', 'Percent Complete');
+      data.addColumn('string', 'Dependencies');
+
+      data.addRows([
+        ['comments', 'Finish Addressing Comments', 'George', new Date(2022, 6, 13), new Date(2022, 6, 17), null, 100, null],
+        ['SD check', 'Count SD Cards in lab', 'Meredith, Elizabeth, or Jonny', new Date(2022, 6, 13), new Date(2022, 6, 20), null, 100, null],
+        ['SD format', 'Format SD Cards and set aside for packing', 'Meredith, Elizabeth, or Jonny', new Date(2022, 6, 20), new Date(2022, 6, 27), null, 100, null],
+        ['SMA cable', 'Set aside SMA connectors from built antenna boxes for packing', 'Meredith, Elizabeth, or Jonny', new Date(2022, 6, 13), new Date(2022, 6, 20), null, 0, null],
+        ['equipment', 'Finalize equipment chart', 'George', new Date(2022, 6, 13), new Date(2022, 6, 20), null, 100, null],
+        ['equipment review', 'Review equipment chart', 'George, Jonny, and Meredith', new Date(2022, 6, 18), new Date(2022, 6, 22), null, 100, null],
+        ['equipment purchase', 'Purchase materials', 'George, with Meredith approval', new Date(2022, 6, 20), new Date(2022, 6, 25), null, 100, null],
+        ['scripts', 'Finish drafting test scripts + instructions for use', 'George', new Date(2022, 6, 13), new Date(2022, 6, 19), null, 100, null],
+        ['toughbook', 'Get scripts onto toughbook and run', 'Jonny or Elizabeth', new Date(2022, 6, 19), new Date(2022, 6, 26), null, 100, null],
+        ['scripts review', 'Review scripts/knowledge transfer to team', 'George, Jonny, and Meredith', new Date(2022, 6, 26), new Date(2022, 7, 9), null, 50, null],
+        ['newdoc', 'Draft new triaged plan', 'George', new Date(2022, 6, 18), new Date(2022, 6, 30), null, 100, null],
+        ['newdoc review', 'Review new triaged plan', 'George, Jonny, and Meredith', new Date(2022, 6, 25), new Date(2022, 7, 1), null, 10, null],
+        ['equipment recieve', 'Recieve and sort materials', 'Meredith, Elizabeth, or Jonny', new Date(2022, 6, 25), new Date(2022, 7, 12), null, 0, null],
+        ['equipment pack', 'Pack materials to bring', 'Meredith, Elizabeth, or Jonny', new Date(2022, 6, 25), new Date(2022, 7, 12), null, 0, null],
+        ['newdoc final', 'Finalize triaged plan, educate members on plan', 'George, Jonny, and Meredith', new Date(2022, 7, 1), new Date(2022, 7, 12), null, 0, null],
+
+      ]);
+
+      var options = {
+        height: 500,
+        gantt: {
+          trackHeight: 30
+        }
+      };
+
+      var chart = new google.visualization.Gantt(document.getElementById('chart_div'));
+
+      chart.draw(data, options);
+    }
+  </script>
+</head>
+<body>
+  <h1>A schedule/checklist of to-dos before August 2022 departure for Greenland</h1>
+
+  <h2>Introduction</h2>
+  <p>
+    The goal of this Gantt chart below is to set a rough timeline for the checklist items to be completed.
+    Hovering over each bar will show the people that the steps are specific to (Under "Resource" - this is a Google Dev default I could not change right away).
+    Laura, being offline at the time of development, is free to help at any of these steps when available, 
+    though I would generally group Laura and Meredith together, especially for the review and knowledge transfer steps.
+  </p>
+  <p>
+    For the in-lab stuff, it is assumed that I (George) would do it if present. Otherwise I currently list Meredith, Elizabeth, or Jonny (just whoever is available) as 
+    the people for those tasks. They're generally all pretty quick tasks, and I will continue to think about if anything else is 
+    needed in lab. When those tasks are completed (pre-George NYC arrival), let me know to note it down.
+  </p>
+  
+  <h2>Gantt Chart</h2>
+  <div id="chart_div"></div>
+
+  <h2>Details for each step</h2>
+  <dl>
+    <dt>Finish addressing comments</dt>
+    <dd>- Go through Laura's, Meredith's, and Jonny's feedback and incorporate into existing review/plan</dd>
+    <dt>Count SD Cards in lab</dt>
+    <dd>- Make sure that we have the correct number of cards to bring (I currently have 6 listed, though maybe 2 additional backups would be good). 
+      There's also 4 unused in Ilulissat</dd>
+    <dd>- If there aren't enough cards, let George know so he can update the materials list to purchase some.</dd>
+    <dt>Set aside SMA connectors from built antenna boxes for packing</dt>
+    <dd>- A quick check to just disassemble the built antenna boxes and extract the SMA cables and make sure that they are accounted for/labelled to pack for Ilulissat.</dd>
+    <dt>Finalize equipment chart</dt>
+    <dd>- Considering the comments given, update the materials spreadsheet</dd>
+    <dd>- This spreadsheet will be the basis of any purchases</dd>
+    <dt>Finalize drafting test scripts + instructions for use</dt>
+    <dd>- I will let Jonny know when this is done, and provide the instructions to get this onto the toughbook and run with test data</dd>
+    <dt>Review equipment chart</dt>
+    <dd>- I am hoping that in some point during this window, we can go over my finalized chart and agree on what needs to be purchased</dd>
+    <dt>Draft new triaged plan</dt>
+    <dd>- This is using the comments from the old review/plan</dd>
+    <dd>- The purpose of this new plan is to provide step by step instructions in Greenland</dd>
+    <dd>- It will also order points to address by importance/how critical it is for success</dd>
+    <dd>- It will describe what issues to look out for, and what to do if those issues are identified</dd>
+    <dd>- It will also describe materials needed for the solutions, and detail what can be done in-field vs before the trip in-town</dd>
+    <dt>Get scripts onto toughbook and run</dt>
+    <dd>- George will need to provide instructions on libraries needed/environment set up</dd>
+    <dd>- George will also provide the code itself in the form of a Github repository</dd>
+    <dt>Format SD cards and set aside for packing</dt>
+    <dd>- Label these to be packed for Ilulissat (on their case)</dd>
+    <dd>- To format, you just need a computer and an SD card reader. 
+      <a href="https://www.grdian.com/resources/how-to-format-exfat-to-fat32">These steps here</a> then give the exact procedure.</dd>
+    <dt>Purchase materials</dt>
+    <dd>- Once materials have been finalized, George can send purchasing requests to Kaylee or whoever necessary. </dd>
+    <dd>- George will also keep track of orders and let people know when they've arrived (in the case where he is not already in the lab).</dd>
+    <dt>Review new triaged plan</dt>
+    <dd>- A similar comment iteration, except this time with hopefully a more detailed/cohesive document that mimics the intended flow of work in the field</dd>
+    <dt>Recieve and sort materials</dt>
+    <dd>- As packages arrive, unpack them and stage them for packing. Note in the materials document once they've arrived</dd>
+    <dt>Pack materials to bring</dt>
+    <dd>- We pack everything and note down what has been packed. Ensure weights are ok.</dd>
+    <dt>Review scripts/knowledge transfer to team</dt>
+    <dd>- After scripts have been tested, this step consists of educating the field team how to run them and how to interpret results.</dd>
+    <dt>Finalize triaged plan</dt>
+    <dd>- This will be to review the new triaged plan and make sure that every member knows their role.</dd>
+    <dd>- The goal is that after this review, the team is clear about what needs to be done upon arrival in Ilulissat</dd>
+  </dl>
+  
+
+</body>
+</html>
