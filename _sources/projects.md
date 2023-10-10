@@ -1,8 +1,25 @@
 # Projects
 
-This section keeps track of some of the projects unrelated to my primary research that I've worked on that showcase various applications of coding/data science to earth science topics. 
+This section keeps track of some of my unpublished projects that may or may not be related to my primary research. These projects showcase various applications of coding/data science to earth science topics. 
+
+## 2023
+### The past Martian climate may support present-day liquid water under the SPLD
+- Project done with peers at the [Karthaus School for Ice and Climate](https://www.projects.science.uu.nl/iceclimate/karthaus/)
+- Group Project found [here](https://github.com/glugeorge/random-analysis-projects/tree/main/Mars%20Ice)
+- This group project looked at forcing a time-dependent heat equation within ice with past Martian climates to see if the time dependence could result in remnant liquid water existing at the Martian south pole. 
+- I primarily worked on running a suite of sensitivity tests to see instances where liquid water could potentially exist in present day
+
+### A program for generating along-flowline profiles
+- Project for a Glaciology course
+- Project found [here](https://github.com/glugeorge/flowline_picker)
+- Examines different methods for generating a 1-D flowline through any user-selected point on the Antarctic Ice Sheet
 
 ## 2022
+### Using Machine Learning Techniques to Emulate Ice Sheet Velocities from a Parallel, High Resolution Ice Sheet Model
+- Project for a Machine Learning in Earth and Environmental Engineering course
+- Project found [here](https://github.com/glugeorge/ML_2022_project)
+- I develop and compare traditional NN, CNN, LSTM, CNN+LSTM models and their efficacy in emulating outputs from the [Parallel Ice Sheet Model](). 
+
 ### Hurricane tracks and their economic impacts in a changing climate:  
 - Project for a [Climate Prediction Challenges](https://leap.columbia.edu/) course
 - Group project found [here](https://github.com/katelmarsh/hurricanes_climate_pred)
@@ -22,9 +39,15 @@ This section keeps track of some of the projects unrelated to my primary researc
 - As the title suggests, we conducted a shapely analysis to identify what features a ML-based pCO2 recontruction relied on the most.
 - Through this analysis, we identified a possible correlation between a misrepresentation of biological activity in the Southern Ocean and a failure to accurately capture seasonlality in the same area.
 
+### Using Machine Learning Techniques to Emulate Ice Sheet Velocities from a Parallel, High Resolution Ice Sheet Model
+- Project for a Machine Learning for Earth and Environmental Engineering course
+- Project found [here](https://github.com/glugeorge/ML_2022_project)
+- Tested different types of neural networks for their ability to emulate a high resolution ice sheet model
+
 ### A python-based solver for equilibrium pressures and co2-h2o solubilities in mafic melts
-- Project for a chemical geology course
+- Project for a Chemical Geology course
 - Project found [here](https://github.com/glugeorge/chemgeo)
+- Self explanatory, a basic calculator for determining pressures and solubilities
 
 ## 2021
 ### A correlation analysis of meltwater runoff and glacier velocities on the Greenland Ice Sheet
