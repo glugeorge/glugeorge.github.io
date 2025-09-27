@@ -1,10 +1,11 @@
 # Curriculum Vitae
  
 ## Education
-**PhD Candidate in Earth and Environmental Science, Columbia University (2021-present)**
+**PhD Student in Earth and Environmental Science, Columbia University (2021-present)**
+- MA awarded in 2023, MPhil awarded in 2024 (cGPA: 4.17)
 - Advisors: Jonathan Kingslake (primary), Meredith Nettles, W. Roger Buck
-- Area of study: Glaciology, Marine and Polar Geophysics
-- Relevant courses: Climate Prediction Challenges, Geophysical Inverse Theory, Quantitative Methods of Data Analysis, Research Computing in Earth Science
+- Area of study: Glaciology, Polar Geophysics, Subglacial Hydrology, Numerical Modeling 
+- Relevant courses: Climate Prediction Challenges, Geophysical Inverse Theory, Quantitative Methods of Data Analysis, Research Computing in Earth Science, Machine Learning in Earth and Environmental Engineering, Remote Sensing
 
 **BASc in Engineering Science - Physics Option, University of Toronto (2016-2021)**
 - Graduated with honors, cGPA: 3.77 
@@ -15,23 +16,25 @@
 ## Publications
 - See [here](./publications.md)
 
-## Presentations
-- Lu, G., Wells, M., Van Stygeren, I., and Hecky, R.: Intrusions of sediment laden fluids into density stratified water columns can be an unrecognized source of mixing in many lakes., EGU General Assembly 2021, online, 19–30 Apr 2021, EGU21-1407, https://doi.org/10.5194/egusphere-egu21-1407, 2021.
+## Presentations/Posters
+- Lu, G., Kingslake, J.: An idealized model of ice flow with subglacial water coupling. West Antarctic Ice Sheet Workshop, 2022. 
+- Lu, G., Wells, M., Van Stygeren, I., and Hecky, R.: Intrusions of sediment laden fluids into density stratified water columns can be an unrecognized source of mixing in many lakes. EGU General Assembly 2021, online, 19–30 Apr 2021, EGU21-1407, https://doi.org/10.5194/egusphere-egu21-1407, 2021.
 
 ## Field Experience
 - See [here](./fieldwork.md)
 
 ## Workshops/Summer Schools
+- [LEAP 2nd Annual meeting](https://leap.columbia.edu/yr2annmtg/)
 - [Alliance Graduate Summer School in Sustainable Development (2022)](https://blogs.cuit.columbia.edu/sdds/alliance-graduate-summer-school-2022/)
 
-## Memberships/Pro Bono Work
-**Research Fellow, Rho Impact/PRIME Coalition (2022-)**
-- Developing and reviewing potential climate impact models of emerging green technologies
-- Models to be incorporated into [CRANE tool](https://cranetool.org/)
 
-**Expert, OnePointFive Expert Network (2022-)**
+
 
 ## Professional Experience 
+**Research Fellow, Rho Impact (2022)**
+- Developing and reviewing potential climate impact models of emerging green technologies
+- Models incorporated into [CRANE tool](https://cranetool.org/)
+
 **Systems Design Engineering Intern, Advanced Micro Devices (AMD) (2019-2020)**
 - Developed tools to automate system power/performance tests for the post-silicon power team (Python, Perl, C, bash)
 - Worked on web-based UIs to display regression test data (Python, jQuery, Javascript)

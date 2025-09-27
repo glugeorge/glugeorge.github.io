@@ -2,6 +2,9 @@
 
 This section keeps track of some of my unpublished projects that may or may not be related to my primary research. These projects showcase various applications of coding/data science to earth science topics. 
 
+## 2024
+### 
+
 ## 2023
 ### The past Martian climate may support present-day liquid water under the SPLD
 - Project done with peers at the [Karthaus School for Ice and Climate](https://www.projects.science.uu.nl/iceclimate/karthaus/)
@@ -13,6 +16,12 @@ This section keeps track of some of my unpublished projects that may or may not 
 - Project for a Glaciology course
 - Project found [here](https://github.com/glugeorge/flowline_picker)
 - Examines different methods for generating a 1-D flowline through any user-selected point on the Antarctic Ice Sheet
+
+### Identifying trends in modern Greenland temperatures using ice cores
+- Project done with Sam Chester for a Stable Isotope Geochemistry course
+- Project Jupyter notebook found [here](https://github.com/glugeorge/stable_isotope_final/blob/main/ice_core_analysis.ipynb)
+- I conducted most of the correlation analysis
+
 
 ## 2022
 ### Using Machine Learning Techniques to Emulate Ice Sheet Velocities from a Parallel, High Resolution Ice Sheet Model
@@ -53,6 +62,6 @@ This section keeps track of some of my unpublished projects that may or may not 
 ### A correlation analysis of meltwater runoff and glacier velocities on the Greenland Ice Sheet
 - My final project for a [Research Computing in Earth Science](https://earth-env-data-science.github.io/intro.html) course
 - Project found [here](https://github.com/glugeorge/rces-project)
-- This project involved displaying spatial averages of runoff and velocity over time to compare trends across the entire GIS, while also having 2d heatmaps of the cross correlation to see if only specific regions are strongly influenced by runoff
+- This project involved displaying spatial averages of runoff and velocity over time to compare trends across the entire GIS, while also having 2D heatmaps of the cross correlation to see if only specific regions are strongly influenced by runoff
 
 

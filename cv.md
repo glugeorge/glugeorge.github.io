@@ -2,6 +2,7 @@
  
 ## Education
 **PhD Student in Earth and Environmental Science, Columbia University (2021-present)**
+- MA awarded in 2023, MPhil awarded in 2024 (cGPA: 4.17)
 - Advisors: Jonathan Kingslake (primary), Meredith Nettles, W. Roger Buck
 - Area of study: Glaciology, Polar Geophysics, Subglacial Hydrology, Numerical Modeling 
 - Relevant courses: Climate Prediction Challenges, Geophysical Inverse Theory, Quantitative Methods of Data Analysis, Research Computing in Earth Science, Machine Learning in Earth and Environmental Engineering, Remote Sensing
