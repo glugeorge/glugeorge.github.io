@@ -4,7 +4,7 @@ layout: page
 permalink: /cv/
 ---
 
-# **George Lu - Curriculum Vitae**
+# Curriculum Vitae
 
 ## **Education**
 
