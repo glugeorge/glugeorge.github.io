@@ -14,7 +14,7 @@
 
 ## Invited Talks
 
-- **“Feedbacks between subglacial hydrology and ice-sheet dynamics.”** NASA GISS Sea Level Rise Seminar (virtual), 21 Oct 2025.
+- **“Feedbacks between subglacial hydrology and ice-sheet dynamics.”** NASA GISS Sea Level Rise Seminar (virtual), 21 Oct 2025. [Watch on Youtube](https://www.youtube.com/watch?v=YzcDJOHBO6g&t=2s)
 
 ---
 
