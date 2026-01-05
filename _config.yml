@@ -1,4 +1,6 @@
 title: George Lu
 author: George Lu
 logo: logo.jpg
-copyright: "2022"
+copyright: "2026"
+html_theme_options:
+  collapse_navigation: false

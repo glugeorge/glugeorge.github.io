@@ -2,8 +2,6 @@
 
 This section keeps track of some of my unpublished projects that may or may not be related to my primary research. These projects showcase various applications of coding/data science to earth science topics. 
 
-## 2024
-### 
 
 ## 2023
 ### The past Martian climate may support present-day liquid water under the SPLD

@@ -1,9 +1,3 @@
----
-title: "George Lu — CV"
-layout: page
-permalink: /cv/
----
-
 # Curriculum Vitae
 
 ## **Education**
